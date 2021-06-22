@@ -362,7 +362,7 @@ stops %>%
   count(officer_id)
 ```
 
-Bu default, count will name the column with the counts `n`. We can change this by explicitly providing a value for the `name` argument:
+By default, count will name the column with the counts `n`. We can change this by explicitly providing a value for the `name` argument:
 
 ```{r, eval=F, purl = FALSE}
 stops %>%
